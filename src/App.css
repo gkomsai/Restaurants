@@ -1,0 +1,90 @@
+.App {
+  text-align: center;
+}
+#heading{
+  font-size: 3rem;
+  font-weight: bolder;
+  color: chocolate;
+  margin: 2rem 0rem;
+}
+
+.item-parent {
+  width: 76%;
+  margin: auto;
+  margin-bottom: 1.5rem;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: .5rem;
+
+}
+
+.largeBox {
+  display: flex;
+  justify-content: space-between;
+  padding: 2.5rem 2.5rem 2rem 2.5rem;
+ 
+}
+
+.largeBox img {
+  width: 300px;
+  height: 200px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.largeBox img:hover{
+  width: 330px;
+  height: 220px;
+}
+
+.bottom-box {
+  border-top: 1px dashed grey;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+
+.description {
+ 
+  width: 30%;
+  padding: 0.6rem;
+}
+.description> h1{
+  font-size: 20px;
+  font-weight: bold;
+  color: brown;
+}
+
+.bottom-box button {
+  padding: 0.6rem 1rem;
+  background-color: rgb(233 244 236);
+  border: 1px solid rgb(195, 245, 208);
+  color: rgb(97 157 86);
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.credits {
+  padding-left: 2rem;
+   font-weight: 500;
+  color: grey;
+}
+
+.light {
+  color: grey;
+}
+
+.ratings {
+  background-color: rgb(21, 126, 21);
+  color: whitesmoke;
+  font-weight: bold;
+  padding: 0.7em;
+  border-radius: 10px;
+  font-size: large;
+}
+
+.bold {
+  font-weight: bold;
+  margin-left: 1rem;
+}
